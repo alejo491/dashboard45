@@ -1,12 +1,13 @@
 
-public class Controlador {
+public class controlador {
+	
 		
 	public String crearProyecto(Proyecto p){
 		
-			Conectorproyecto c= new conectorBD();
+			Conexion c= new Conexion();
 			Boolean b= c.crearProyecto(p);
 		    if (b == true) return "Bien";
-		    else return "Mal"
+		    else return "Mal";
 			
 	};
 	
