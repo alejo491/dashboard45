@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, TaskBoardActivity!</string>
+    <string name="app_name">TasKBoard</string>
+    <string name="addProject">AGREGAR PROYECTO</string>
+    <string name="idProject">ID</string>
+    <string name="nameProject">NOMBRE</string>
+    <string name="beginDateProject">FECHA INICIO</string>
+    <string name="endDateProject">FECHA FIN</string>
+    <string name="descriptionProject">DESCRIPCION</string>
+    <string name="add">Agregar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="result">RESULTADO</string>
+    <string name="resultOk">INSERCION EXITOSA</string>
+    <string name="login">LOGIN</string>
+    <string name="user">USUARIO</string>
+    <string name="password">CONTRASEÑA</string>
+    <string name="go">Acceder</string>
+    <string name="addSprint">Agregar</string>
+    <string name="modifySprint">Modificar</string>
+    <string name="viewSprint">Mostrar</string>
+    <string name="AGREGAR">addProject</string>
+    <string name="PROYECTO">project</string>
+    <string name="project">PROYECTO</string>
+    <string name="dash">TAREA</string>
+    <string name="dashBoard">TABLERO DE TAREAS</string>
+    <string name="PENDIENTE">pending</string>
+    <string name="pending">PENDIENTE</string>
+    <string name="going">EN CURSO</string>
+</resources>
