@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+  
+ <TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:gravity="center"
+    android:textSize="30px"
+    android:text="Inicio"
+    />
+
+<Button android:id="@+id/btIrTablero" 
+		android:layout_height="wrap_content" 
+		android:layout_width="200px"	
+		android:text="Ir a tablero"
+		android:layout_marginTop="20px"
+		android:layout_gravity="center_vertical|center_horizontal|center"/>
+
+<Button   android:id="@+id/btEditarProyecto"
+		  android:layout_height="wrap_content"
+		  android:layout_width="200px"
+		  android:text="Editar proyecto"
+		  android:layout_marginTop="20px"
+		  android:layout_gravity="center_vertical|center_horizontal|center"/>
+    
+<Button   android:id="@+id/btEditarTareas"
+		  android:layout_height="wrap_content"
+		  android:layout_width="200px"
+		  android:text="Editar tareas"
+		  android:layout_marginTop="20px"
+		  android:layout_gravity="center_vertical|center_horizontal|center"/>
+    
+<Button   android:id="@+id/btEditarSprint"
+		  android:layout_height="wrap_content"
+		  android:layout_width="200px"
+		  android:text="Editar sprint"
+		  android:layout_marginTop="20px"
+		  android:layout_gravity="center_vertical|center_horizontal|center"/>
+    />
+    
+    
+</LinearLayout>
