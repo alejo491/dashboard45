@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="match_parent"
+	android:layout_height="match_parent">
+	<LinearLayout android:id="@+id/linearLayout1"
+		android:layout_width="match_parent" android:layout_height="wrap_content"
+		android:gravity="center">
+		<TextView android:id="@+id/textView1" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:text="@string/login"
+			android:textSize="25sp" android:textStyle="bold"></TextView>
+	</LinearLayout>
+	<LinearLayout android:id="@+id/linearLayout2"
+		android:layout_width="match_parent" android:layout_height="wrap_content"
+		android:layout_marginTop="20sp" android:weightSum="1">
+		<TextView android:layout_width="wrap_content"
+			android:textSize="20sp" android:id="@+id/textView2"
+			android:layout_height="wrap_content" android:text="@string/user"
+			android:textStyle="bold" android:width="140sp"></TextView>
+		<EditText android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:layout_weight="1" android:id="@+id/txtUser"></EditText>
+	</LinearLayout>
+	<LinearLayout android:id="@+id/linearLayout3"
+		android:layout_width="match_parent" android:layout_height="wrap_content"
+		android:layout_marginTop="20sp">
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:textSize="20sp" android:textStyle="bold" android:width="140sp" android:id="@+id/textView" android:text="@string/password"></TextView>
+		<EditText android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:layout_weight="1"
+			android:inputType="textPassword" android:id="@+id/txtPassword"></EditText>
+	</LinearLayout>
+	<Button android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:id="@+id/btnAceder"
+		android:text="@string/go" android:textSize="20sp"
+		android:layout_marginTop="40sp" android:layout_marginLeft="100sp" android:onClick="onAceptClick"></Button>
+
+</LinearLayout>
